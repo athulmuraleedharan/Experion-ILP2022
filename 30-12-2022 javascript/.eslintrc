@@ -1,0 +1,25 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "env":{
+        "browser": true
+    },
+    "rules": {
+        // "no-unused-vars":"error",//its all mention in env browser
+        // "no-empty":"error",
+        // "no-undef":"off",
+        // "no-console":"off"
+        "prefer-const":"warn",
+        "camelcase":"warn",
+        "quotes":[1,"single",{"avoidEscape":true,"allowTemplateLiterals":true}],
+        "spaced-comment": "off",
+        "semi":"error",
+        "space-infix-ops":"warn"
+    },
+    "extends":[
+        "eslint:recommended"
+    ]
+   
+    }
+    

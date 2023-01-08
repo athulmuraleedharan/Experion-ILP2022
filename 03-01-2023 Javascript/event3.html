@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="divi" style="height: 150px;background-color: blue;"></div>
+    <hr>
+    <input type="range" min="10" max="1500" value="50" onchange="execute(event)">
+    <input type="range" min="1" max="100" value="10" onchange="execute1(event)">
+
+    <script>
+        const res = document.getElementById('divi');
+        function execute(e) {
+            res.style.width = `${e.target.value}px`;
+        }
+        function execute1(e) {
+
+            res.style.borderRadius = `${e.target.value}px`;
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>

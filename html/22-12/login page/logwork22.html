@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile</title>
+    <style>
+      * {
+        margin: 0%;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(back.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+      }
+
+      .profile {
+        background-image: url(kid.jpg);
+        background-size: cover;
+        height: 125px;
+        width: 125px;
+        border-radius: 50%;
+        margin-left: 110px;
+        margin-top: -70px;
+      }
+
+      .contain {
+        background-color: aliceblue;
+        width: 22em;
+        height: 33em;
+        border-radius: 10px;
+      }
+
+      .pebble {
+        background-image: url(peb.jpg);
+        width: 22em;
+        height: 10em;
+        background-size: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      .button1 {
+        background-color: rgb(16, 58, 245);
+        border-color: blue;
+        border-radius: 9px;
+        color: aqua;
+        width: 15rem;
+        margin-top: 30px;
+        margin-left: 55px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 1px 4px 5px red;
+      }
+
+      .text {
+        display: flex;
+
+        flex-direction: column;
+        text-align: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 1.3rem;
+        line-height: 35px;
+        padding-top: 10px;
+      }
+
+      .space {
+        padding-top: 20px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="contain">
+        <div class="pebble"></div>
+        <div class="profile"></div>
+
+        <div class="text">
+          <label for="" class="space"> Geeft Vorm<br /> </label
+          ><label for=""> UI/UX desIgner </label>
+          <table
+            style="
+              margin-top: 25px;
+              border-top: 2px solid rgb(0, 213, 255);
+              border-bottom: 2px solid rgb(0, 213, 255);
+            "
+          >
+            <th>Projects</th>
+            <th>Following</th>
+            <th>Followers</th>
+            <tr>
+              <td>7</td>
+              <td>248</td>
+              <td>162</td>
+            </tr>
+          </table>
+
+          <button class="button1">Follow</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

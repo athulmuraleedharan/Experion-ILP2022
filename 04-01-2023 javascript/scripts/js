@@ -1,0 +1,23 @@
+
+
+
+
+function doThisLongRunningTask(callback) {
+    setTimeout(() => {
+        const name = 'javascript';
+        callback(name);
+    }, 5000);
+}
+function showResult(res){
+    console.log(res);
+}
+doThisLongRunningTask(showResult);
+console.log('i am done');
+
+
+const p = new Promise((resolve, reject) => {
+    const name = 'java ';
+    resolve(name);
+
+});
+p.then(res=>console.log(res));

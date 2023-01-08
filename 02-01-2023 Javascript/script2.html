@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p9"> Js -javascript</p>
+    <p id="p10">This is Js</p>
+    <script>
+        let option = confirm('do you need');
+        console.log(option);
+        if (option) {
+            console.log('done');
+
+        }
+
+        const name = prompt('enter the name ');
+        console.log('you are ', name)
+
+        //access to documents
+        document.write('hello');
+        const element = document.getElementById('p1');
+        const element1 = document.getElementById('p10');
+        console.log(element1);
+        console.log(element);
+
+
+        element1.innerText = 'New text';
+        console.log(element1.innerText);
+
+
+        // document Object model
+        element1.style.color = 'red';
+        //elemnt and tags are there is created js object by broweser in memmory
+        console.log(element1.style.color);
+        //document is the wbpage (in tree like structure) created as object it has functions and array with tags (getementbyid())
+        let e = document.getElementById('p9');
+        e.style.color = 'green';
+        e.style.fontSize = '30px';
+        e.style.textAlign = 'center';
+        e.style.fontWeight = 'bold';
+        //convert to dom and tag vice versa i th browser can be checked in browser
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>

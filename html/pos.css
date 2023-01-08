@@ -1,0 +1,26 @@
+*{
+    margin:0;
+}
+
+.parent{
+    width:500px;
+    height:500px;
+    border:2px solid red;
+    position: absolute;
+}
+
+.child1{
+    width:100px;
+    height:100px;
+
+    background-color: aqua;
+    position: absolute;
+    right:0;
+
+}
+
+.child2{
+    width:100px;
+    height:100px;
+    background-color: rgb(215, 163, 9);
+}

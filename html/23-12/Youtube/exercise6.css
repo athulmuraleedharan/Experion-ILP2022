@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+h1{
+    padding: 10px 40px;
+    color: white;
+    font-size:50px;
+    font-family:'Lucida Sans';
+
+}
+span{
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+}
+.content{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 70px;
+
+}
+
+
+.size{
+    height: 170px;
+   
+    background-size: contain;
+}
+h3,h5,p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+.logo{
+    display: flex;
+
+}
+.log{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.video{
+    display: flex;
+}
+.time{
+    position: absolute;
+    
+    color: white;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+

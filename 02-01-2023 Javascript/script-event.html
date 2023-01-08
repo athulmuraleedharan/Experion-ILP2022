@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="handleClick(event)">clickme</button>
+    <button onclick="handleClick(event)">clickme</button>
+    <p onclick="handleClick(event)">clickme</button>
+        <p>First paragraph</p>
+
+        <p>second paragraph</p>
+    </p>
+
+
+    <input id="test" type="checkbox">select
+    <input id="email" type="email">select
+
+    <script>
+        // function handleClick(e){
+        //     console.log('button Clicked');
+        //     alert('button Clicked')
+        //     e.target.innerText = 'clicked';
+        //     e.target.style.color = 'green';
+            var ev = document.getElementsByTagName('p');
+            for (let i = 0; i < ev.length; i++) {
+                const element = ev[i];
+                element.innerText = "new text";
+                // element.style.display = 'none';
+                // document.getElementById('p1').remove();
+                // document.getElementById('p1').removeAttribute('style');
+             
+                document.getElementById('test').setAttribute('checked', 'checked');
+                
+                document.getElementById('email').setAttribute('value', 'we@email.com');
+                let res = document.getElementById('email').getAttribute('type');
+                console.log(res)
+
+
+
+            }
+            
+        
+    </script>
+</body>
+</html>

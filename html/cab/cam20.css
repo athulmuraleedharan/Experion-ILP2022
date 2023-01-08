@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    position: sticky;
+    font-size: 3rem;
+    color: rgb(236, 16, 16);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    top: 0%;
+    align-items: center;
+}
+
+.nback {
+    background-color: #0b0b2e;
+    margin: 0%;
+    padding: 1rem;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.main-nav {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    width: 100vw;
+    justify-content: end;
+}
+
+nav>a {
+    text-decoration: none;
+    color: rgb(224, 232, 223);
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/home.jpg);
+    background-size: cover;
+    padding-right: 30px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.f {
+    background-color: rgb(19, 150, 186);
+    color: black;
+    padding: .09rem;
+    border-radius: 1rem;
+}
+
+.image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/bg.jpg);
+    background-size: cover;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn1 {
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}

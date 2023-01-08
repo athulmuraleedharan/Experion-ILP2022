@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercise2</title>
+    <style>
+      * {
+        margin: 0%;
+      }
+      .header {
+        display: flex;
+        background-color: rgb(23, 97, 218);
+        color: aliceblue;
+        padding: 25px 200px;
+        font-size: 2rem;
+      }
+      .footer {
+        display: flex;
+        background-color: rgb(0, 177, 253);
+        color: aliceblue;
+        padding: 25px 200px;
+        font-size: 2rem;
+        justify-content: center;
+      }
+      .aside {
+        display: flex;
+        background-color: rgb(174, 87, 10);
+        color: aliceblue;
+        font-size: 2rem;
+        padding: 187px;
+      }
+      .content {
+        display: flex;
+        background-color: rgb(117, 238, 174);
+        color: aliceblue;
+        width: 70%;
+        height: 75vh;
+        font-size: 30px;
+        align-items: center;
+        padding-left: 100px;
+      }
+      .cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px 20px;
+      }
+      .conte {
+        display: flex;
+        background-color: rgb(57, 115, 198);
+        width: 11rem;
+        height: 7rem;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h3>Experitube</h3>
+    </div>
+    <nav class="nav">
+      <div class="content">
+        <span class="cont">
+          <div class="conte">Content</div>
+          <div class="conte">Content</div>
+          <div class="conte">Content</div>
+          <div class="conte">Content</div>
+          <div class="conte">Content</div>
+          <div class="conte">Content</div>
+        </span>
+      </div>
+      <div class="aside">
+        <h3>ASIDE</h3>
+      </div>
+    </nav>
+    <div class="footer">
+      <h3>Footer</h3>
+    </div>
+  </body>
+</html>

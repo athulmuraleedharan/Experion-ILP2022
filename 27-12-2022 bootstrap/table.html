@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <style>
+        img {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- fontawsome.com -->
+    <!-- dont inside bg inside table -->
+    <div class="container-fluid">
+        <table class="table table-dark table-bordered table-striped-column table-hover">
+            <thead>
+                <!-- windows +alt -->
+                <tr>
+                    <th>Id</th>
+                    <th>Avatar</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Action</th>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <img src="/th.jfif" alt="">
+                    </td>
+                    <td>athul</td>
+                    <td>athul@gmail.com
+                        <span class="badge rounded-pill bg-success">&check;</span>
+                        <i class="fa-solid fa-envelop mail-icon"></i>
+                    </td>
+                    <td>
+                        <div class="btn-group">
+                            <button class="btn btn-warning">
+                                <span class="fa fa-eye"></span>view
+
+                            </button>
+                            <button class="btn btn-danger">
+
+                                <span class="fa fa-trash"></span>
+                                delete
+                            </button>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</th>
+                    <td>
+                        <div class="d-flex">
+                            <img src="/th.jfif" alt="">
+                            <img src="/th.jfif" alt="">
+                        </div>
+                    </td>
+                    <td>user</th>
+                    <td>user@gmail.com</th>
+                    <td>
+                        <div class="btn-group">
+                            <button class="btn btn-warning">
+                                <span class="fa fa-eye"></span>view
+
+                            </button>
+                            <button class="btn btn-danger">
+
+                                <span class="fa fa-trash"></span>
+                                delete
+                            </button>
+
+                        </div>
+                    </td>
+                </tr>
+
+            </thead>
+
+        </table>
+    </div>
+</body>
+
+</html>
